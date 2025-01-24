@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishk Devda - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav id="navbar">
+    <div class="nav-content">
+        <div class="logo">Kanishk Devda Portfolio</div>
+        <div class="nav-links">
+            <a href="#home" data-section="home">Home</a>
+            <a href="#work" data-section="work">Projects</a>
+            <a href="#about" data-section="about">About</a>
+            <a href="#contact" data-section="contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content Sections -->
+<main id="main-content">
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="home-content">
+            <h1>Computer Science Developer & <br>Tech Innovator</h1>
+            <p>Creating innovative solutions that leverage cutting-edge technologies to solve real-world challenges.</p>
+            <div class="cta-buttons">
+                <a href="#work" class="btn btn-primary">View Projects</a>
+                <a href="https://drive.google.com/file/d/1fsAv0lf8xfxno2R45b9poYSnTez351E8/view?usp=sharing" target="_blank" class="btn btn-secondary">Download Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/kanishk-devda" target="_blank" class="social-icon">
+                    <img src="linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="mailto:kanishkd24@gmail.com" class="social-icon">
+                    <img src="email.svg" alt="Email">
+                </a>
+                <a href="https://github.com/kdevda24" target="_blank" class="social-icon">
+                    <img src="github-mark.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <div class="section-content">
+            <h2>Selected Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('morse-code-project.jpg')"></div>
+                    <div class="project-details">
+                        <h3>Text to Morse Code App</h3>
+                        <p>Developed a cross-platform mobile application that converts text to Morse code and generates flashlight signals.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ionic React</span>
+                            <span class="tech-tag">Cordova</span>
+                            <span class="tech-tag">Mobile Development</span>
+                        </div>
+                        <a href="#" class="project-link">Project Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('blog-project.jpg')"></div>
+                    <div class="project-details">
+                        <h3>Personal Blog Web Application</h3>
+                        <p>Created a responsive and interactive frontend blog platform with dynamic content and seamless navigation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Project Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('lab-system-project.jpg')"></div>
+                    <div class="project-details">
+                        <h3>Online Diagnostic Lab Reporting System</h3>
+                        <p>Developed a comprehensive system for managing patient diagnostic records with secure login and intuitive interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                        <a href="#" class="project-link">Project Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('voice-assistant-project.jpg')"></div>
+                    <div class="project-details">
+                        <h3>AI Desktop Voice Assistant</h3>
+                        <p>Created an intelligent voice-controlled desktop assistant with multiple functionalities like email, music playback, and web access.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <a href="#" class="project-link">Project Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p class="about-description">
+                I'm a passionate Computer Science student pursuing my Master's degree at Pace University,
+                with a strong background in software development and a keen interest in creating innovative
+                technological solutions. My academic and personal projects reflect my commitment to
+                learning and applying cutting-edge technologies.
+            </p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Proficient in creating responsive and dynamic web applications using modern frameworks and technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Experienced in multiple programming languages including Python, JavaScript, and React, with a strong problem-solving approach.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Mobile & AI</h3>
+                    <p>Exploring innovative domains like mobile app development and artificial intelligence to create impactful solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Let's Connect</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Kanishk Devda. All Rights Reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
